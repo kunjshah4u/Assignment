@@ -1,0 +1,49 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  max-width: 250px;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.product-card p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.product-card button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #555;
+}
+
+.product-list .btnAdd {
+  background-color: blue;
+  color: white;
+}
+
+.product-list .btnRemove {
+  background-color: red;
+  color: white;
+}

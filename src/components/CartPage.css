@@ -1,0 +1,80 @@
+.cart {
+  padding: 20px;
+}
+
+.cart h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+.cart-table th{
+  padding: 10px;
+  text-align: center;
+}
+.cart-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.cart-table th {
+  background-color: rgb(13, 127, 20);
+}
+
+.cart-table img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.cart-table button:hover {
+  background-color: white;
+}
+
+.cart-table .delete{
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.cart-table .blue {
+    background-color: aqua;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+.order-button {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+  /* transition: background-color 0.2s; */
+}
+
+.order-button:hover {
+  background-color: #ffca2c;
+}
+
+.total-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.h5, .order-button{
+  margin-right: 3rem;
+}
